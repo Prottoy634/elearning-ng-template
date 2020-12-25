@@ -50,12 +50,27 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/fonts/**"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/css/font-awesome.css",
+              "src/styles/css/theme-color/default-theme.css",
+              "src/styles/css/slick.css",
+              "src/styles/css/bootstrap.css",
+              "src/styles/css/style.css",
+              "src/styles/css/jquery.fancybox.css",
+              "src/styles/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/slick.js",
+              "src/assets/js/waypoints.js",
+              "src/assets/js/jquery.counterup.js",
+              "src/assets/js/jquery.fancybox.pack.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -117,7 +132,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/styles.scss"
             ],
             "scripts": []
           }
@@ -148,6 +163,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "elearning"
 }
